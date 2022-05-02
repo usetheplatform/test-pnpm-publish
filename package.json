@@ -11,7 +11,7 @@
   "license": "ISC",
   "scripts": {
     "release:version": "pnpm changeset version && pnpm install --no-frozen-lockfile",
-    "release:publish": "pnpm publish -r"
+    "release:publish": "pnpm publish -r --report-summary"
   },
   "dependencies": {
     "@changesets/cli": "^2.22.0"
