@@ -10,7 +10,7 @@ importers:
 
   packages/package-1:
     specifiers:
-      '@usetheplatform/test-pnpm-publish-2': workspace:^0.0.0
+      '@usetheplatform/test-pnpm-publish-2': workspace:^1.0.0
     dependencies:
       '@usetheplatform/test-pnpm-publish-2': link:../package-2
 
