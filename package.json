@@ -1,0 +1,19 @@
+{
+  "name": "@usetheplatform/test-pnpm-publish-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:usetheplatform/test-pnpm-publish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "release:version": "pnpm changeset version && pnpm install --no-frozen-lockfile",
+    "release:publish": "pnpm publish -r"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.22.0"
+  }
+}
