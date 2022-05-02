@@ -55,3 +55,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.MY_TOKEN }}
+
+      - name: Publish GitHub tags and releases
+        run: cat pnpm-publish-summary.json | jq
