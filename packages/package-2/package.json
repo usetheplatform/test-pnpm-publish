@@ -1,0 +1,16 @@
+{
+  "name": "test-pnpm-publish-2",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:usetheplatform/test-pnpm-publish.git",
+    "directory": "packages/package-2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
